@@ -49,6 +49,7 @@ module.exports = {
         hot: true,
         devMiddleware: {
             writeToDisk: true
-        }
+        },
+        allowedHosts: "all" // needed if hosted behind reverse proxy
     },
 };
